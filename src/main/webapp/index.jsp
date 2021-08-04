@@ -11,11 +11,13 @@
 <h1>
 <center><b><p style="color:white">Praveen's Web Application </p></b></h1></center>
 <h2>
-<p style="color:white">Please Click to login to Required Web Applications</h2>
+<p style="color:white">Please Click to login to Required Web App's</h2>
 
 <p><a href="https://aws.amazon.com//" style="color:purple"> Login to AWS Cloud </a></p>
 <p><a href="https://www.facebook.com//" style="color:purple">Login to FaceBook</a></p>
 <p><a href="https://twitter.com/home?lang=en" style="color:purple"> Login to Twitter </a></p>
+<p><a href="https://www.youtube.com/" style="color:purple"> Login to youtube </a></p>
+<p><a href="https://www.instagram.com/accounts/login/" style="color:purple"> Login to Instagram </a></p>
 <h3>
 <p style="color:white">Thanks</p></h3>
 <h3>
@@ -27,7 +29,3 @@
 </html>
 </Body>
 </Html>
-
- 
-
- 
