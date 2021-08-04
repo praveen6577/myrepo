@@ -9,7 +9,7 @@
 <body style="font-family:Verdana;color:#aaaaaa;">
 <Body background="https://i.pinimg.com/originals/a6/b4/62/a6b462ec855cbd26efe77936f49199c7.png">   
 <h1>
-<center><b><p style="color:white">Praveen's Web Application </p></b></h1></center>
+<center><b><p style="color:white">Welcome to DevOps Automation  </p></b></h1></center>
 <h2>
 <p style="color:white">Please Click to login to Required Web App's</h2>
 
