@@ -21,7 +21,7 @@
 <h3>
 <p style="color:white">Thanks</p></h3>
 <h3>
-<p style="color:white">Praveen Kumar G</p></h3>
+<p style="color:white">DevOps Automation Team</p></h3>
 
 
 
