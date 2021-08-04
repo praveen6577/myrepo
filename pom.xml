@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>tech.cyborgdeveloper</groupId>
-  <artifactId>maven-web</artifactId>
+  <artifactId>PraveensWebApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -20,6 +20,6 @@
   </dependencies>
 
   <build>
-    <finalName>maven-web</finalName>
+    <finalName>PraveensWebApp</finalName>
   </build>
 </project>
