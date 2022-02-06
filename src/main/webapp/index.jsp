@@ -15,7 +15,6 @@
 
 <p><a href="https://aws.amazon.com//" style="color:blue"> Login to AWS Cloud </a></p>
 <p><a href="https://www.facebook.com//" style="color:blue">Login to FaceBook</a></p>
-<p><a href="https://mail.google.com/" style="color:blue">Login to Gmail</a></p>  
 <p><a href="https://twitter.com/home?lang=en" style="color:blue"> Login to Twitter </a></p>
 <p><a href="https://www.youtube.com/" style="color:blue"> Login to youtube </a></p>
 <p><a href="https://www.instagram.com/accounts/login/" style="color:blue"> Login to Instagram </a></p>
