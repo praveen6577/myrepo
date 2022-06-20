@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>tech.cyborgdeveloper</groupId>
-  <artifactId>PipelineScriptAutomation</artifactId>
+  <artifactId>myapp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -20,6 +20,6 @@
   </dependencies>
 
   <build>
-    <finalName>PipelineScriptAutomation</finalName>
+    <finalName>myapp</finalName>
   </build>
 </project>
