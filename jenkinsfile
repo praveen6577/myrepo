@@ -1,42 +1,23 @@
-
 pipeline
 {
     agent any
     stages
     {
-        stage('Pipeline_CompileAutomation')
+        stage('Package')
         {
             steps
             {
                 git 'https://github.com/praveen6577/myrepo.git'
-                sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/itsmyMavenTool/bin/mvn compile'
+                sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.8.6/bin/mvn package'
             }
-        }
-        stage('Pipeline_CodeTest')
-        {
-            steps
-            {
-            git 'https://github.com/praveen6577/myrepo.git'
-            sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/itsmyMavenTool/bin/mvn test'
-            }
-        }
-    
-        stage('Pipeline_CodePackaging')
-        {
-            steps
-            {
-                git 'https://github.com/praveen6577/myrepo.git'
-                sh '/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/itsmyMavenTool/bin/mvn package'
-            }
-        }
-    
-         stage('Pipeline_Deployment')
+        }   
+         stage('Deployment')
          {
              steps 
              {
-                 sh 'sudo cp /var/lib/jenkins/workspace/CICD/target/PipelineScriptAutomation.war /root/apache-tomcat-9.0.50/webapps/'
-                 sh 'sudo /root/apache-tomcat-9.0.50/bin/shutdown.sh'
-                 sh 'sudo /root/apache-tomcat-9.0.50/bin/startup.sh'
+                  sh"""  sudo cp /var/lib/jenkins/workspace/CICD/target/myapp.war /home/ubuntu/apache-tomcat-9.0.64/webapps
+                    sudo /home/ubuntu/apache-tomcat-9.0.64/bin/shutdown.sh
+                    sudo /home/ubuntu/apache-tomcat-9.0.64/bin/startup.sh """ 
                  
              }
          }
