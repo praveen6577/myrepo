@@ -15,7 +15,7 @@ pipeline
          {
              steps 
              {
-                  sh"""  sudo cp /var/lib/jenkins/workspace/CICD/target/myapp.w /home/ubuntu/apache-tomcat-9.0.64/webapps
+                  sh"""  sudo cp /var/lib/jenkins/workspace/CICD/target/myapp.war /home/ubuntu/apache-tomcat-9.0.64/webapps
                     sudo /home/ubuntu/apache-tomcat-9.0.64/bin/shutdown.sh
                     sudo /home/ubuntu/apache-tomcat-9.0.64/bin/startup.sh """ 
                  
