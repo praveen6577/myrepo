@@ -11,7 +11,7 @@
 <h1>
 <center><b><p style="color:white">Shikara Skandana Web Application </p></b></h1></center>
 <h2>
-<p style="color:white">Persevrance Hosting Solutions </h2>
+<p style="color:white">Perseverance Hosting Solutions </h2>
 
 <p><a href="https://aws.amazon.com//" style="color:blue"> Login to AWS Cloud </a></p>
 <p><a href="https://www.facebook.com//" style="color:blue">Login to FaceBook</a></p>
