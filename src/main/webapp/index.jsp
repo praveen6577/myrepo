@@ -6,12 +6,14 @@
 <body>
 <html>
 <body>
-<body style="font-family:Verdana;color:#aaaaaa;">
-<Body background="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg">   
+<body style="font-family:Verdana;color:#000000;">
+<Body background="https://zeevector.com/wp-content/uploads/Background/Light-Blue-Square-Background.png">   
 <h1>
-<center><b><p style="color:white">Shikara Skandana Web Application </p></b></h1></center>
+
+
+<center><b></h><p style="color:black">Perseverance Software Training Institute </p></b></h></center>
 <h2>
-<p style="color:white">Perseverance Hosting Solutions </h2>
+<p style="color:black">Perseverance Hosting Solutions </h2>
 
 <p><a href="https://aws.amazon.com//" style="color:blue"> Login to AWS Cloud </a></p>
 <p><a href="https://www.facebook.com//" style="color:blue">Login to FaceBook</a></p>
@@ -20,9 +22,9 @@
 <p><a href="https://www.netflix.com/" style="color:blue"> Login to Netflix </a></p>
 <p><a href="https://www.instagram.com/accounts/login/" style="color:blue"> Login to Instagram </a></p>
 <h3>
-<p style="color:white">Thanks & Regards</p></h3>
+<p style="color:purple">Thanks & Regards</p></h3>
 <h3>
-<p style="color:white">Praveen Kumar G</p></h3>
+<p style="color:purple">Praveen Kumar G</p></h2>
 
 
 
